@@ -80,7 +80,7 @@ public class TestFeatureStepsDefination {
 
 		//4.2 By using default constructor for serialization
 		User user = new User();
-		user.setName("morpheus");
+		user.setName("morpheus1");
 		user.setJob("leader");
 		response = request.body(user).post("/api/users");
 	}
